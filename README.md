@@ -47,7 +47,7 @@ Exception handling
 User input and command processing
 🚀 Getting Started
 1. Clone the repository
-git clone https://github.com/tcnomithareddy28-cloud/voice-assistant-python.git
+git clone https://github.com/santhoshgundluri-3/voice-assistant-python.git
 cd voice-assistant-python
 2. Create a virtual environment
 python -m venv venv
