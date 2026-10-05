@@ -1,4 +1,4 @@
-# 🎙️ Voice Assistant
+# 🎙️ Voice Assistant — Oasis Infobyte Project 1
 
 A simple **Python-based Voice Assistant** that uses speech recognition and voice commands to perform basic tasks and interact with the user.
 
