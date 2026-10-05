@@ -1,73 +1,85 @@
-🎙️ Voice Assistant Python
-A beginner-friendly Python voice assistant developed as Oasis Infobyte Python Internship — Project 1. The application listens to spoken commands, converts speech to text, performs useful actions, and responds using text-to-speech.
+# 🎙️ Voice Assistant
 
-🎓 Oasis Infobyte Internship — Project 1
-Project: Voice Assistant
-Internship: Python Programming Internship — Oasis Infobyte
+A simple **Python-based Voice Assistant** that uses speech recognition and voice commands to perform basic tasks and interact with the user.
 
-This project demonstrates practical Python programming through speech recognition, audio processing, text-to-speech, command handling, and web automation.
+## 🚀 Features
 
-✨ Features
-🎤 Capture voice commands through the microphone
-📝 Convert speech to text using Google Speech Recognition
-🔊 Respond with text-to-speech using pyttsx3
-🕐 Tell the current time and date
-🔎 Perform web searches
-▶️ Open YouTube and Google
-💬 Handle basic conversational commands
-❌ Exit safely on command
-⚠️ Handle common speech-recognition and service errors
-🧠 How It Works
+- 🎤 Recognizes voice commands
+- 🗣️ Responds using speech
+- 🔎 Performs basic searches
+- 🌐 Opens websites
+- ⏰ Provides basic information
+- ⚡ Easy to use and beginner-friendly
+
+## 🛠️ Technologies Used
+
+- **Python**
+- Speech Recognition
+- Text-to-Speech
+- Python Libraries
+
+## 📂 Project Structure
+
+```text
+Voice-Assistant/
+│
+├── voice_assistant.py
+└── README.md
+```
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+### 2. Open the project folder
+
+```bash
+cd Voice-Assistant
+```
+
+### 3. Run the program
+
+```bash
+python voice_assistant.py
+```
+
+## 💡 How It Works
+
+The voice assistant listens to the user's voice through the microphone, converts the speech into text, processes the command, and provides a suitable response.
+
+```text
 User Voice
-    ↓
-Microphone Audio
     ↓
 Speech Recognition
     ↓
 Command Processing
     ↓
-Action / Response
+Task Execution
     ↓
-Text-to-Speech
-🛠️ Tech Stack
-Python
-SpeechRecognition — speech-to-text
-pyttsx3 — text-to-speech
-SoundDevice — audio recording
-SoundFile — WAV audio handling
-NumPy — audio data processing
-Web Browser — web automation
-📚 Skills Demonstrated
-Python programming
-Speech recognition integration
-Audio recording and processing
-Text-to-speech systems
-Service/API integration
-Exception handling
-User input and command processing
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/santhoshgundluri-3/voice-assistant-python.git
-cd voice-assistant-python
-2. Create a virtual environment
-python -m venv venv
-Windows:
+Voice Response
+```
 
-venv\Scripts\activate
-macOS/Linux:
+## 🎯 Learning Outcomes
 
-source venv/bin/activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Run the assistant
-python voice_assistant.py
-Note: A working microphone and internet connection are required for speech recognition and web-based features.
+Through this project, I practiced:
 
-📂 Project Structure
-voice-assistant-python/
-├── voice_assistant.py
-├── requirements.txt
-└── README.md
-👩‍💻 Author
-GUNDLURI SANTHOSH
-Python | AI & Machine Learning | Data Science
+- Python programming
+- Speech recognition
+- Text-to-speech
+- Working with Python libraries
+- User interaction
+- Basic automation
+
+## 👩‍💻 Author
+
+**SANTHOSH GUNDLURI**
+
+GitHub: `santhoshgundluri-3`
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub!
